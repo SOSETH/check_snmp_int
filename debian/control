@@ -1,0 +1,14 @@
+Source: check-snmp-int
+Section: devel
+Priority: optional
+Maintainer: Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>
+Build-Depends: debhelper (>= 9), libnet-snmp-perl
+Standards-Version: 3.9.8
+Homepage: http://nagios.manubulon.com/snmp_int.html
+Vcs-Git: https://github.com/SOSETH/check_snmp_int.git
+Vcs-Browser: https://github.com/SOSETH/check_snmp_int
+
+Package: check-snmp-int
+Architecture: all
+Depends: ${perl:Depends}, libnet-snmp-perl
+Description: Check IPMI sensors

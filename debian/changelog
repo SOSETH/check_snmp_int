@@ -1,0 +1,5 @@
+check-snmp-int (1.24-1) unstable; urgency=medium
+
+  * Initial release, corresponds to upstream 1.24
+
+ -- Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>  Wed, 02 May 2018 20:15:10 +0200
